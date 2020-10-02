@@ -1,0 +1,250 @@
+body{
+    margin:0 ;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#one-header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 23px;
+    position: fixed;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.buy{
+    float: right;
+    position: relative;
+    width: 50%;
+    text-align: right;
+    background-color: crimson;
+    
+}
+.to{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    float: left;
+    
+}
+nav ul li {
+    list-style-type: none;
+}
+.drop{
+    display: none;
+
+}
+.drop2{
+    display: block;
+}
+.one{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+#second-header{
+     width: 100%;
+     height: 770px;
+     background-image: url(../Images/red.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-color: black;
+     margin-bottom: 0%;
+}
+ /* the about section */
+ #about{
+     width: 100%;
+     background-color: black;
+     color: white;
+     
+ }
+ .abouts{
+     margin: 0% 20% 0% 15%;
+     height: 60px;
+     width: 60%;
+     position: absolute;
+     bottom: 30px;
+     padding: 5%;
+     color: white;
+     text-align: center;
+     font-weight: bold;
+     font-family: 'Ubuntu', sans-serif;
+    
+ }
+ /* video section */
+ #trailer{
+     color: white;
+     text-align: center;
+     background-color: black;
+     position: relative;
+     height: 600px;
+     padding-top: 5%;
+     font-family: 'Ubuntu', sans-serif;
+ }
+ .vid{
+     height: 400px;
+     width: 45%;
+     margin: 0.25%;
+     display: inline-block;
+     /* background-color: crimson; */
+ }
+ .vid-sec{
+     /* margin: 0% 5% 0% 4%; */
+ }
+ video{
+    height: 300px;
+    width: 100%;
+    padding: -10% 0%;
+ }
+ /* screeenshot section */
+ .screen{
+     height: 400px;
+     width: 80%;
+     
+ }
+ #screen{
+     background-color: rgb(0, 0, 0);
+     text-align: center;
+     color: white;
+     font-family: 'Ubuntu', sans-serif;
+     
+ }
+ .carousel-item{
+    padding:1% 15% 1% 15%;
+  }
+  /* footer section */
+  #out{
+      background-image: url(../Images/out.png);
+      width: 100%;
+      height: 210px;
+  }
+  #footer{
+      background-image: url(../Images/foot.png);
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      height: 270px;
+      
+  }
+.normal{
+    width: 100%;
+    height: 200px;
+}
+.navigate{
+    display: inline-flex;
+    width: 100%;
+    padding-left: 0%;
+}
+
+.imgs:hover{
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+.imgs{
+    height: 90px;
+    width: 100%;
+    /* padding: 10%; */
+}
+.vids{
+    padding: 4%;
+}
+.contain{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.sub{
+    height: 250px;
+    width: 30%;
+    margin: 0.25%;
+    display: inline-block;
+    
+    position: relative;
+    top: 13px;
+    left: 4%;
+    
+}
+.list{
+    width: 100%;
+    height: 60px;
+}
+.togs{
+    color: white;
+    margin-left: 2%;
+    font-weight:bold ;
+}
+
+.buys{
+    position: absolute;
+    right: 3%;
+    
+    background-color: crimson;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.togs,.buys:link{
+    color: white;
+}
+.togs:hover{
+    color: crimson;
+    text-decoration: none;
+}
+.togs,.buys:visited{
+    text-decoration: none;
+    color: white;
+}
+.tog:hover{
+    font-size: 5rem;
+    color: crimson;
+    padding: 3%;
+}
+.tog{
+    font-size: 5rem;
+}
+ul{
+    list-style-type: none;
+    display: block;
+}
+ol{
+    display: flex;
+    list-style-type: none;
+    
+}
+.l{
+    padding-left: 10%;
+}
+.b{
+    height: 80px;
+    
+}
+.n{
+    height: 80px;
+}
+h5{
+    background-color: crimson;
+    opacity: 0.5;
+    margin: 1% 26% 1% 26%;
+}
+.c{
+    text-align: center;
+}
+.fa-facebook-square, .fa-instagram, .fa-twitter, .fa-youtube, .linkin{
+    font-size: 2rem;
+    color: crimson;
+    
+}
+  
